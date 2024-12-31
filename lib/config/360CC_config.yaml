@@ -12,7 +12,7 @@ CUDNN:
 
 DATASET:
   DATASET: 360CC
-  ROOT: "H:/DL-DATASET/360M/images"
+  ROOT: "C:\\data_public\\OCR\\CRNN_Chinese_Characters_Rec\\images"
   CHAR_FILE: 'lib/dataset/txt/char_std_5990.txt'
   JSON_FILE: {'train': 'lib/dataset/txt/train.txt', 'val': 'lib/dataset/txt/test.txt'}
 #  JSON_FILE: {'train': 'H:/DL-DATASET/360M/train.txt', 'val': 'H:/DL-DATASET/360M/test.txt'}

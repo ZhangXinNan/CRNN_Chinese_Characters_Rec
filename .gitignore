@@ -1,3 +1,9 @@
 .DS_Store
 .vscode/
 .idea/
+
+__pycache__/
+*.py[cod]
+output/
+
+lib/dataset/txt/train.txt
