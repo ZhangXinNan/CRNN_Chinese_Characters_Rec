@@ -136,6 +136,8 @@ if __name__ == '__main__':
             if c in pred:
                 char_map[c][1] += 1
         # break
+        if box_num > 1000:
+            break
 
     finished = time.time()
     print('elapsed time: {0}'.format(finished - started))
